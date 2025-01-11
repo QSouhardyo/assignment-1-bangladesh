@@ -1,5 +1,6 @@
 body {
     margin: 0 100px;
+    background: rgb(245, 245, 245);
 }
 
 .work-sans-normal {
@@ -29,9 +30,14 @@ h2 {
     font-size: 30px;
 }
 
+h4 {
+    font-size: 20px;
+}
+
 .paragraph {
     color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
+    font-weight: 500px;
 }
 
 /* banner */
@@ -60,9 +66,7 @@ h2 {
 
 /* vision */
 
-h4 {
-    font-size: 20px;
-}
+
 
 .cards {
     display: flex;
@@ -89,4 +93,21 @@ h4 {
 
 .btn-modern {
     background-color: rgb(255, 194, 57);
+}
+
+/* quote */
+.quote {
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 48px 24px 48px 24px;
+    margin: 40px 0;
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position-x: 25px;
+    background-position-y: 40px;
+
+}
+
+.chief {
+    color: rgba(14, 14, 14, 0.8);
 }
