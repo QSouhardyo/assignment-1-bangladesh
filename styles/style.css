@@ -16,13 +16,22 @@ body {
     font-weight: 600;
     border-radius: 8px;
     background: rgb(0, 106, 80);
-    padding: 17px 34px 17px 34px;
+    padding: 13px 25px;
     border: none;
 }
 
 .btn-primary:hover {
     background-color: tomato;
     cursor: pointer;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.paragraph {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
 }
 
 /* banner */
@@ -47,4 +56,37 @@ body {
 
 .banner-2 img {
     margin-left: 20px;
+}
+
+/* vision */
+
+h4 {
+    font-size: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    padding: 25px;
+}
+
+.card-2 {
+    background-color: rgb(198, 228, 214);
+}
+
+.card-3 {
+    background-color: rgb(247, 235, 207);
+}
+
+.btn-learn {
+    background-color: rgb(84, 144, 245);
+}
+
+.btn-modern {
+    background-color: rgb(255, 194, 57);
 }
