@@ -47,6 +47,28 @@ h4 {
     font-weight: 500px;
 }
 
+/* navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar button {
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    color: rgb(0, 106, 80);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 30px;
+}
+
+.navbar button:hover {
+    background-color: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+
+}
+
 /* banner */
 .banner {
     border-radius: 24px;
