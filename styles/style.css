@@ -74,6 +74,7 @@ h4 {
     border-radius: 24px;
     background-color: rgb(198, 228, 214);
     padding: 80px 90px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
 
@@ -104,6 +105,10 @@ h4 {
     border-radius: 16px;
     background-color: rgba(84, 144, 245, 0.2);
     padding: 25px;
+}
+
+.card:hover {
+    background-color: gray;
 }
 
 .card-2 {
@@ -218,5 +223,7 @@ h4 {
 
 .subscribe button {
     position: absolute;
+    border-radius: 0 8px 8px 0;
+
 
 }
